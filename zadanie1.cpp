@@ -73,7 +73,7 @@ int** generateGraph(int n) {
 }
 
 int main() {
-    void clearScreen()
+    clearScreen();
     srand(static_cast<unsigned int>(time(nullptr)));
 
     std::cout << "Задание 1: Генерация двух графов и вывод их матриц и списков смежности\n";
